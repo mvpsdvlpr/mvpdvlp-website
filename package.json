@@ -1,0 +1,25 @@
+{
+  "name": "adulto-mayor-website",
+  "version": "0.0.0",
+  "description": "SPA de mi pagian web",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -e 'js,handlebars,hbs,html' server",
+    "prod": "node server"
+  },
+  "keywords": [
+    "elderly care",
+    "SPA",
+    "cuidado adulto mayor"
+  ],
+  "author": "BRT_z",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
